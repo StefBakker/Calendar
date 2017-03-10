@@ -3,7 +3,7 @@
 	$connection = new mysqli('localhost','root','','calendar');
 	
 	// prepare query to select all data from the table books
-	$sql = "SELECT * FROM birthdays";
+	$sql = "SELECT * FROM birthdays order by month asc, day asc";
 	
 	// execute the query 
 	$result = $connection->query($sql);
@@ -20,7 +20,7 @@
 <body>
 <!-- Header text "Calender" -->
 	<div class="header">Calendar</div>
-	<div>
+	<div class="mainbox">
 			<table border="2" bgcolor="white" bordercolor="black" id="list" class="container">
 		<?php 
 			include('add.php');

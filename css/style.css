@@ -10,11 +10,15 @@
 	width: 500px;
 }
 
-* {
+button{
+  border-radius: 10px;
+}
+
+body {
 	background-color: lightgrey;
 	margin-left: auto;
 	margin-right: auto;
-	width: 500px;
+	width: 900px;
 }
 
 input{
@@ -29,6 +33,10 @@ input{
 	text-align: center;
 	color: white;
 	font-family: arial;
+}
+
+.mainbox{
+  background-color: white;
 }
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans);

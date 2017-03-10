@@ -11,7 +11,7 @@
 		<label for="author">Year: </label><input name="year">
 
 		
-		<input type="submit" name="submit" value="save">
+		<button type="submit" name="submit" value="save">Save</button>
 	</form>	
 </body>
 </html>
